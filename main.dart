@@ -65,9 +65,9 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter, // เมื่อกดปุ่มจะเพิ่มค่า counter
+        onPressed: _incrementCounter, 
         tooltip: 'Increment',
-        child: const Icon(Icons.add), // ไอคอนสำหรับเพิ่ม
+        child: const Icon(Icons.add), 
       ),
     );
   }
